@@ -1,0 +1,50 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$primary-color: rgba(10,40,30,.25);
+$secondary-color: rgba(10,40,30,.5);
+$tertiary-color: rgba(10,40,30,.75);
+$soft-tertiary-color: rgba(10,40,30,.05);
+
+html {
+  background: linear-gradient($primary-color, $tertiary-color);
+}
+body {
+  width: 50%;
+  height: 100vh;
+  margin: 2em auto;
+  padding: 3em 3em;
+  font-family: Helvetica;
+  background-color: rgba(255,255,255,0.95);
+  color: $secondary-color;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: $secondary-color;
+  &:hover { color: $tertiary-color; }
+}
+form {
+  color: $secondary-color;
+  margin-bottom: 2em;
+}
+input, textarea {
+  border-style: none;
+  margin: -2px;
+  outline: none;
+  padding: 1em 2em;
+  background: $primary-color;
+  &:focus { background: $soft-tertiary-color; }
+}
+input[type='submit'] {
+  color: $tertiary-color;
+  margin: -3px !important;
+  font-weight: bold;
+  cursor: pointer;
+  background: $soft-tertiary-color !important;
+  &:hover { background: $soft-tertiary-color !important; }
+  margin: 0px;
+}
+p{
+  font-size: 12px;
+}
