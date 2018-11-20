@@ -1,10 +1,10 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$primary-color: rgba(10,40,30,.25);
-$secondary-color: rgba(10,40,30,.5);
-$tertiary-color: rgba(10,40,30,.75);
-$soft-tertiary-color: rgba(10,40,30,.05);
+$primary-color: rgba(255,40,30,.25);
+$secondary-color: rgba(255,40,30,.5);
+$tertiary-color: rgba(255,40,30,.75);
+$soft-tertiary-color: rgba(255,40,30,.05);
 
 html {
   background: linear-gradient($primary-color, $tertiary-color);
